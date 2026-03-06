@@ -7,6 +7,4 @@ app.use(express.json());
 
 app.use("/api/v1", userRouter);
 
-app.listen(6754, () => {
-    console.log("Example app listening on port 6754!");
-});
+export default app;
